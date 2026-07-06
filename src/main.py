@@ -30,15 +30,11 @@ def main():
 
     print("Saving processed CSV files...")
     save_processed_tables(modeled_tables, "data/processed")
-
-    # Uncomment this after you create the PostgreSQL database
-    # and run sql/schema.sql.
     
     print("Loading data into PostgreSQL...")
     load_tables_to_postgres(modeled_tables)
 
     print("ETL pipeline completed successfully.")
-
 
 if __name__ == "__main__":
     main()
