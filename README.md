@@ -24,6 +24,5 @@ The dataset contains real public e-commerce order data from Brazil, including cu
 ## Author
 
 **Sofia Mercado**  
-Aspiring Data Analyst / Data Engineer  
 
 [LinkedIn](https://www.linkedin.com/in/sofialyn/) | [GitHub](https://github.com/mercado-sofia) | [sofia1809.mercado@gmail.com](mailto:sofia1809.mercado@gmail.com)
