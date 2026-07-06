@@ -33,9 +33,9 @@ def main():
 
     # Uncomment this after you create the PostgreSQL database
     # and run sql/schema.sql.
-    #
-    # print("Loading data into PostgreSQL...")
-    # load_tables_to_postgres(modeled_tables)
+    
+    print("Loading data into PostgreSQL...")
+    load_tables_to_postgres(modeled_tables)
 
     print("ETL pipeline completed successfully.")
 

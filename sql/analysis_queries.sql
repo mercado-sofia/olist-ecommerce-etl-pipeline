@@ -27,17 +27,6 @@ SELECT
 FROM vw_payment_summary
 ORDER BY total_payment_value DESC;
 
--- 4. Average review score by product category
-SELECT
-    s.product_category_name_english,
-    AVG(r.review_score) AS avg_review_score,
-    COUNT(r.review_id) AS review_count
-FROM vw_order_sales_summary s
-JOIN fact_reviews r
-    ON s.order_id = r.order_id
-GROUP BY s.product_category_name_english
-ORDER BY avg_review_score DESC;
-
 -- 5. Top 10 sellers by revenue
 SELECT
     seller_id,

@@ -1,8 +1,15 @@
+# Virtual environment and secrets
 .venv/
 .env
+
+# Python cache and notebooks
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-data/raw/*.csv
-data/processed/*.csv
+# Raw and processed data assets
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
