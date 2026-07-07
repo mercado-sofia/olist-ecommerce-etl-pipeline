@@ -1,6 +1,6 @@
 ## Sample SQL Outputs
 
-The project includes SQL analysis queries for monthly revenue, top product categories, payment methods, seller performance, and delivery performance.
+The project includes screenshots of SQL analysis queries for monthly revenue, top product categories, payment methods, seller performance, and delivery performance.
 
 ### Monthly Revenue
 ![Monthly Revenue](docs/screenshots/monthly_revenue.png)
