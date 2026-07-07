@@ -27,7 +27,7 @@ SELECT
 FROM vw_payment_summary
 ORDER BY total_payment_value DESC;
 
--- 5. Top 10 sellers by revenue
+-- 4. Top 10 sellers by revenue
 SELECT
     seller_id,
     total_orders,
@@ -38,7 +38,7 @@ FROM vw_seller_performance
 ORDER BY total_revenue DESC
 LIMIT 10;
 
--- 6. Delivery performance count
+-- 5. Delivery performance count
 SELECT
     delivery_status,
     COUNT(*) AS order_count
